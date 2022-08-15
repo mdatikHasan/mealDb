@@ -2,7 +2,7 @@ const searchFood = () => {
     const searchField = document.getElementById('search-field')
     const searchText = searchField.value;
 
-    if (searchField.value = '') {
+    if (searchField.value == '') {
         // please write something to display
     } else {
         const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchText}`;
